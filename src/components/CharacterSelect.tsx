@@ -10,6 +10,17 @@ interface CharacterSelectProps {
 }
 
 const characters: Character[] = [
+    {
+    name: 'Trallalero Trallalà',
+    description: 'A flamboyant fish-man hybrid in a flashy tuxedo',
+    image: Shark,
+    backgroundStyle: {
+      primary: 'from-emerald-900 to-blue-900',
+      secondary: 'bg-pink-700',
+    },
+    power: 'Bubble Shield',
+    difficulty: 'Medium',
+  },
   {
     name: 'Bombardino Crocodilo',
     description: 'A stylish crocodile with a monocle and red scarf',
@@ -20,17 +31,6 @@ const characters: Character[] = [
     },
     power: 'Mega Jump',
     difficulty: 'Easy',
-  },
-  {
-    name: 'Trallalero Trallalà',
-    description: 'A flamboyant fish-man hybrid in a flashy tuxedo',
-    image: Shark,
-    backgroundStyle: {
-      primary: 'from-emerald-900 to-blue-900',
-      secondary: 'bg-pink-700',
-    },
-    power: 'Bubble Shield',
-    difficulty: 'Medium',
   },
   {
     name: 'Tung Tung Tung Tung Sahur',
